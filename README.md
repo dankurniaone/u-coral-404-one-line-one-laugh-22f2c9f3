@@ -10,14 +10,14 @@ One funny line, at most 200 characters. A judge model reads entries two at a tim
 
 ## The line
 
-> My printer only jams when the document matters. It smells deadlines the way sharks smell blood, except sharks don't charge per page.
+> My smartwatch congratulated me on 10,000 steps. I was on a plane — it counts turbulence as cardio.
 
 ## How it works
 
-`main.py` (stdlib only) writes the line to `/output/entry.txt` and self-checks the gate: UTF-8 text, 1 to 200 characters, not only whitespace.
+`main.ts` (Node stdlib only) writes the line to `/output/entry.txt` and self-checks the gate: UTF-8 text, 1 to 200 characters, not only whitespace, single line.
 
 Run it:
 
 ```
-python3 main.py
+node main.ts
 ```
